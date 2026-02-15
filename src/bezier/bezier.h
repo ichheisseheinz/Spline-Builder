@@ -1,18 +1,20 @@
 #pragma once
 
 #include "raylib.h"
+#include "../node/node.h"
 
 namespace bezier
 {
 	class Bezier
 	{
 	public:
-		Bezier(Vector2 p0, Vector2 p1, Vector2 p2, Vector2 p3);
+		Bezier(node::Node p0, node::Node p1, node::Node p2, node::Node p3);
+		void Update();
 		void Draw();
 	private:
-		Vector2 p0;
-		Vector2 p1;
-		Vector2 p2;
-		Vector2 p3;
+		node::Node p0;
+		node::Node p1;
+		node::Node p2;
+		node::Node p3;
 	};
 }

@@ -21,9 +21,11 @@
   <ItemGroup>
     <ClCompile Include="src\bezier\bezier.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\node\node.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\bezier\bezier.h" />
+    <ClInclude Include="src\node\node.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

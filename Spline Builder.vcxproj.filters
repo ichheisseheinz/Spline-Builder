@@ -21,9 +21,15 @@
     <ClCompile Include="src\bezier\bezier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\node\node.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\bezier\bezier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\node\node.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
