@@ -24,12 +24,24 @@
     <ClCompile Include="src\node\node.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\appgui\appgui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\appgui\raygui.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\bezier\bezier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\node\node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\appgui\appgui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\appgui\raygui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\appgui\appgui.cpp" />
+    <ClCompile Include="src\appgui\raygui.cpp" />
     <ClCompile Include="src\bezier\bezier.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\node\node.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\appgui\appgui.h" />
+    <ClInclude Include="src\appgui\raygui.h" />
     <ClInclude Include="src\bezier\bezier.h" />
     <ClInclude Include="src\node\node.h" />
   </ItemGroup>

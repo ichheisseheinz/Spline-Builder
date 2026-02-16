@@ -35,7 +35,8 @@ void Bezier::Draw()
 	*/
 	Vector2 last = p0.GetPosition();
 	Vector2 current;
-	for (float t = 0.02; t <= 1; t += 0.02)
+	float resolution = 1.0f / 100;
+	for (float t = resolution; t <= 1; t += resolution)
 	{
 		current = p0.GetPosition() +
 			((p0.GetPosition() * -3) + (p1.GetPosition() * 3)) * t +

@@ -30,5 +30,5 @@ void Node::Draw()
 
 Vector2 Node::GetPosition()
 {
-	return this->position;
+	return position;
 }
