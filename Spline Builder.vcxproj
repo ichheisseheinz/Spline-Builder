@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -19,15 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\appgui\appgui.cpp" />
-    <ClCompile Include="src\appgui\raygui.cpp" />
+    <ClCompile Include="src\app\app.cpp" />
+    <ClCompile Include="src\app\appgui\appgui.cpp" />
+    <ClCompile Include="src\raygui.cpp" />
     <ClCompile Include="src\bezier\bezier.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\node\node.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\appgui\appgui.h" />
-    <ClInclude Include="src\appgui\raygui.h" />
+    <ClInclude Include="src\app\appgui\appgui.h" />
+    <ClInclude Include="src\raygui.h" />
+    <ClInclude Include="src\app\app.h" />
     <ClInclude Include="src\bezier\bezier.h" />
     <ClInclude Include="src\node\node.h" />
   </ItemGroup>

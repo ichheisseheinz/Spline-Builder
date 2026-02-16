@@ -1,6 +1,12 @@
 #include "appgui.h"
 
-void appgui::Background(int width, int height, int spacing)
+using namespace appgui;
+
+AppGUI::AppGUI(int width, int height) :
+	width(width), height(height)
+{ }
+
+void AppGUI::Background(int spacing)
 {
 	for (int row = 0; row < height; row += spacing)
 	{
@@ -13,7 +19,7 @@ void appgui::Background(int width, int height, int spacing)
 	}
 }
 
-void appgui::UI()
+void AppGUI::UI()
 {
 	if (GuiButton(Rectangle{ 24, 24, 120, 30 }, "#191#Info")) showMessageBox = true;
 
